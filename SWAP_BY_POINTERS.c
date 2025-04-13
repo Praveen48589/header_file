@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"Header-file-for-Swaping-Numbers.h"
+#include"SWAP_BY_POINTERS.h"
 int main(){
     int a = 1;
     int b = 19898;
