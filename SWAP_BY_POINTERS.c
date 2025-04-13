@@ -1,7 +1,8 @@
-void swap(int*a,int*b){
-    int temp;
-    temp = *a;
-    *a = *b; 
-    *b = temp; 
-    return;
+#include<stdio.h>
+#include"Header-file-for-Swaping-Numbers.h"
+int main(){
+    int a = 1;
+    int b = 19898;
+    swap(&a,&b);
+    printf("%d\n%d",a,b);
 }
